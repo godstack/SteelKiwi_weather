@@ -1,0 +1,59 @@
+.comprehensive {
+  padding: 30px;
+}
+
+.comprehensive__p1 {
+  font-family: "Futura BT - Book";
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 72px;
+  /* Text style for "Get the Co" */
+  letter-spacing: 0.48px;
+}
+
+.comprehensive__p2 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  /* Text style for "Data shoul" */
+  letter-spacing: 0.4px;
+}
+
+.computer-icon {
+  background-image: url("../images/Ilustration.png");
+  background-size: 100% 100%;
+  width: 300px;
+  height: 240px;
+  margin: auto;
+}
+
+.comprehensive-wrapper {
+  padding-bottom: 30px;
+}
+
+@media (min-width: 576px) {
+  .computer-icon {
+    width: 500px;
+    height: 440px;
+  }
+}
+
+@media (min-width: 992px) {
+  .comprehensive-wrapper {
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .comprehensive {
+    padding: 30px;
+    width: 50%;
+  }
+
+  .computer-icon {
+    width: 700px;
+    height: 540px;
+  }
+}

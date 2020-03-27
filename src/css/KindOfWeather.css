@@ -1,0 +1,78 @@
+.description {
+  padding: 20px;
+  text-align: center;
+}
+
+.description__text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.4px;
+}
+
+.description_bold {
+  font-family: "Futura BT - Book";
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 74px;
+  margin: 0;
+}
+
+.description__btn {
+  width: 90%;
+}
+
+.description__input {
+  width: 70%;
+  background-image: url("../images/search.png");
+  background-repeat: no-repeat;
+  background-position: center left 10px;
+}
+
+@media (min-width: 992px) {
+  .description {
+    width: 30%;
+  }
+
+  .description__text {
+    font-size: 0.7rem;
+  }
+
+  .description_bold {
+    font-size: 34px;
+    line-height: 50px;
+  }
+
+  .description__btn {
+    width: 30%;
+    font-size: 0.9rem;
+    padding: 17px 5px;
+    line-height: 24px;
+    border-radius: 0 5px 5px 0;
+  }
+
+  .description__input {
+    width: 40%;
+    padding: 11px 40px;
+    border-radius: 5px 0 0 5px;
+  }
+
+  .description__search-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .description__text {
+    font-size: 1rem;
+  }
+
+  .description_bold {
+    font-size: 48px;
+
+    line-height: 74px;
+  }
+}

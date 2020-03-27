@@ -1,0 +1,73 @@
+.questions-wrapper {
+  padding: 20px 0;
+}
+
+.questions-wrapper__p-1 {
+  font-family: "Futura BT - Book";
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 45px;
+  text-align: center;
+
+  letter-spacing: 0.48px;
+}
+
+.questions ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.questions li {
+  margin: 20px 0px;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 30px 10px 0 10px;
+  text-align: start;
+  position: relative;
+  width: 80%;
+}
+
+.questions__header {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+
+  letter-spacing: 0.45px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.questions-hide {
+  display: none;
+}
+
+.questions__content {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+
+  letter-spacing: 0.38px;
+}
+
+.questions__icon {
+  background-size: 100% 100%;
+  width: 24px;
+  height: 14px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.icon-down {
+  background-image: url("../images/icon-down.png");
+}
+
+.icon-up {
+  background-image: url("../images/icon-up.png");
+}
